@@ -48,7 +48,7 @@ class ViewController: UIViewController {
         }
         else {
             //Not registered
-            let alert = UIAlertController(title: "Biometric Unavailable", message: "Please register Biometric if your iPhone has Biometric Feature.", preferredStyle: .alert)
+            let alert = UIAlertController(title: "Biometric is Unavailable", message: "Please register Biometric if your iPhone has Biometric Feature.", preferredStyle: .alert)
             alert.addAction(UIAlertAction(title: "Dismiss", style: .cancel, handler: nil))
             present(alert, animated: true)
             
